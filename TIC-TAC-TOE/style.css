@@ -1,0 +1,47 @@
+/* src/index.css */
+
+body {
+    font: 14px "Arial", sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .game {
+    text-align: center;
+  }
+  
+  .game-board {
+    margin-bottom: 20px;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .board {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .square {
+    float: left;
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #999;
+  }
+  
